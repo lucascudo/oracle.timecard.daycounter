@@ -21,7 +21,6 @@
     Hxctcarecentlist.children[0].appendChild(tr);
     Array.from(document.querySelectorAll("input[title='Select']")).forEach((checkbox) => {
         checkbox.addEventListener('change', () => {
-            console.log('select changed')
             const hours = Array.from(document.querySelectorAll("input[title='Select']")).reduce((hours, checkbox) => {
                 if (!checkbox.checked) {
                     return hours;

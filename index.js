@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Timecard reducer
-// @namespace    https://github.com/lucascudo/oracle.timecard.daycounter
+// @name         Oracle Timecard Day Counter
+// @namespace    https://github.com/lucascudo/otdc
 // @version      0.1
 // @description  Shows the sum of selected timecards in days
 // @author       You

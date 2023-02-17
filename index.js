@@ -3,7 +3,7 @@
 // @namespace    https://github.com/lucascudo/otdc
 // @version      0.1
 // @description  Shows the sum of selected timecards in days
-// @author       You
+// @author       lucascudo <lucas.teixeira.rocha@oracle.com>
 // @match        https://global-ebusiness.oraclecorp.com/OA_HTML/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=oraclecorp.com
 // @grant        none

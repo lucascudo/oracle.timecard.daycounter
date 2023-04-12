@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Oracle Timecard Day Counter
 // @namespace    https://github.com/lucascudo/otdc
-// @version      0.2
+// @version      0.3
 // @description  Shows the sum of selected timecards in days
 // @author       lucascudo <lucas.teixeira.rocha@oracle.com>
 // @match        https://global-ebusiness.oraclecorp.com/OA_HTML/*

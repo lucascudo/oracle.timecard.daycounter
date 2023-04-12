@@ -28,7 +28,6 @@
                 return parseInt(checkbox.parentNode.parentNode.children[5].children[0].innerHTML) + hours;
             }, 0);
             const days = hours / 8;
-            console.log(days);
             td.innerHTML = (days < 1) ? "" : `${days} day${days > 1 ? "s" : ""} selected`;
         });
     });

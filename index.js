@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Oracle Timecard Day Counter
 // @namespace    https://github.com/lucascudo/otdc
-// @version      0.1
+// @version      0.2
 // @description  Shows the sum of selected timecards in days
 // @author       lucascudo <lucas.teixeira.rocha@oracle.com>
 // @match        https://global-ebusiness.oraclecorp.com/OA_HTML/*
@@ -28,7 +28,8 @@
                 return parseInt(checkbox.parentNode.parentNode.children[5].children[0].innerHTML) + hours;
             }, 0);
             const days = hours / 8;
-            td.innerHTML = (days === 0) ? "" : `${days} day${days === 1 ? "s" : ""} selected`;
+            console.log(days);
+            td.innerHTML = (days < 1) ? "" : `${days} day${days > 1 ? "s" : ""} selected`;
         });
     });
 })();
